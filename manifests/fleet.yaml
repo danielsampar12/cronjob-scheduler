@@ -1,0 +1,9 @@
+namespace: default
+targetCustomizations:
+- name: prod-1
+  clusterSelector:
+    matchLabels:
+      env: prod-1
+  yaml:
+    overlays:
+    - prod1
